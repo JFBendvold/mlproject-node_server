@@ -1,5 +1,5 @@
 # Use an ARM-compatible base image
-FROM arm32v7/node:latest
+FROM arm32v7/node:16.18.0-buster-slim
 
 # Create app directory
 WORKDIR /usr/src/app
